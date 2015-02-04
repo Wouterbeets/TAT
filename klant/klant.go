@@ -4,7 +4,6 @@ import (
 	"TAT/bestelling"
 	//	"fmt"
 	"gopkg.in/qml.v1"
-	//"gopkg.in/qml.v1/gl/2.0"
 )
 
 type Klant struct {

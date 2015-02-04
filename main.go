@@ -1,7 +1,6 @@
 package main
 
 import (
-	//	"TAT/bestelling"
 	"TAT/klant"
 	"fmt"
 	"gopkg.in/qml.v1"
@@ -33,6 +32,10 @@ func run() error {
 	win.Set("x", 560)
 	win.Set("y", 320)
 	win.Show()
+	//obj := win.Root()
+	//	obj.On("clicked", func() {
+	//		fmt.Println("awesome")
+	//	})
 	win.Wait()
 	return nil
 }
